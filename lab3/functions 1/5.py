@@ -4,6 +4,6 @@ def print_permutations(string):
     for var in vars:
         print(var)  
 
-input = input("Введите строку: ")
-print("Все перестановки строки:")
+input = input("enter string: ")
+print("all permutations:")
 print_permutations(input)

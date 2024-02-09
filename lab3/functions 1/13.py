@@ -13,7 +13,7 @@ def guess_the_number():
         elif guess > number_to_guess:
             print("Your guess is too high.")
         else:
-            print("Good job, {name}! You guessed my number in {num_guesses} guesses!")
+            print(f"Good job, {name}! You guessed my number in {num_guesses} guesses!")
             break
 
 guess_the_number()
