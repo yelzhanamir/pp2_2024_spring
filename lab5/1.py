@@ -1,4 +1,6 @@
 import re
-txt =input("Enter your text: ")
-x = re.findall(r"a+b*", txt)
+with open('row.txt', 'r', encoding='utf-8') as file:
+    s = file.read()
+
+x = re.findall(r"a+b*", s)
 print(x)
